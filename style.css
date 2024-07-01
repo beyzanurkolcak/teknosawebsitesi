@@ -1,0 +1,90 @@
+.carousel-item img {
+  height: 600px; 
+  width: 100%; 
+  object-fit: cover; 
+}
+
+.row {
+  margin-top: 20px; 
+}
+
+.list-unstyled li a{
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #ffffff;
+  margin-bottom: 0; /* Navbar ile topbar arasındaki boşluğu kapatır */
+}
+
+.navbar .btn-outline-success {
+  background-color: #ff7f00;
+}
+
+form {
+  width: 900px; 
+}
+
+.navbar-nav a {
+  text-decoration: none;
+}
+
+.py-2 {
+  height: 50px; /* Topbar yüksekliği */
+  position: sticky; /* Topbar'ı sabit yapar */
+  top: 0; /* Navbar'ın altında kalmaması için */
+  z-index: 1000; /* Diğer içeriklerin üzerine çıkmasını sağlar */
+}
+
+.col{
+  margin-top: -20px;
+  
+}
+.col{
+  font-size: 10px;
+}
+.carousel-item img {
+  max-height: 500px; /* İstediğiniz maksimum yüksekliği belirleyin */
+  width: auto; /* Genişliği otomatik ayarlar, yüksekliğe göre ölçekler */
+  object-fit: cover; /* Resmin düzgün görünmesini sağlar */
+}
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  width: 100%;
+  margin-top: 10px;
+}
+.card {
+  max-width: 26rem; /* Adjust width */
+  max-height: 30rem; /* Adjust height */
+  margin: 0 auto; /* Center the cards */
+}
+.card img {
+  height: auto;
+  width: 100%;
+}
+.full-width-image{
+  width: 100%;
+  height: auto;
+
+}
+.footer img {
+  display: block;
+  margin: 0 auto;
+}
+.footer p {
+  text-align: center;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(0, 0, 0);
+}
+
+
